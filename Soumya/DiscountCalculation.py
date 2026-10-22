@@ -1,0 +1,5 @@
+a = int(input("Enter total amount: "))
+d = int(input("Discount Percentage: "))
+discount = a*(d/100)
+print("Discount = ", discount)
+price = print("Final amount = ",(a-discount))
