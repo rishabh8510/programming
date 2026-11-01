@@ -1,0 +1,8 @@
+a = int(input("Enter the month number: "))
+match a:
+    case 1, 3, 5, 7, 8, 10, 12:
+        print("Number of days = 31")
+    case 4, 6, 9, 11:
+        print("Number of days = 30")
+    case 2:
+        print("Number of days = 28/29")
